@@ -1,0 +1,16 @@
+CREATE TABLE User_Details (
+   UserID  number(6) NOT NULL,
+   Email   varchar2(25) NOT NULL,
+   Password  varchar2(12) NOT NULL,
+   FullName  varchar2(25) NOT NULL,
+   Mobile    varchar2(10) NOT NULL,	
+   DOB  date NOT NULL,
+   City    varchar2(15) NOT NULL,
+   Qualification varchar2(10) NOT NULL,
+   Address varchar2(25) NOT NULL,
+   constraint UserDetails_UserID_pk primary key(UserID));
+   
+INSERT INTO User_Details VALUES (1,'Srinivas@gmail.com','Srinu@124','Srinivas','9567898979','01-FEB-1996','Chennai','B.TECH','Adyar');
+INSERT INTO User_Details VALUES (2,'Anil@gmail.com','Anil@2729','Anil','9345898457','11-Jan-1996','Mumbai','B.TECH','Bandra');
+INSERT INTO User_Details VALUES (3,'Kaveri@gmail.com','Kaveri@235','Kaveri','9547898678','22-APR-1996','Blore','B.TECH','Central');
+INSERT INTO User_Details VALUES (4,'Ravi@gmail.com','Ravi@1456','Ravi','8667898567','18-JUN-1994','Delhi','M.TECH','NCR');
