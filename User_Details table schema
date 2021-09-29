@@ -1,0 +1,13 @@
+CREATE TABLE User_Details (
+   UserID  number(6) NOT NULL,
+   Email   varchar2(25) NOT NULL,
+   Password  varchar2(12) NOT NULL,
+   FullName  varchar2(25) NOT NULL,
+   Mobile    varchar2(10) NOT NULL,	
+   DOB  date NOT NULL,
+   City    varchar2(15) NOT NULL,
+   Qualification varchar2(10) NOT NULL,
+   Address varchar2(25) NOT NULL,
+   constraint UserDetails_UserID_pk primary key(UserID));
+   
+   
